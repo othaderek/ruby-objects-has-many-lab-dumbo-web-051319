@@ -17,9 +17,9 @@ class Artist
     s
   end
   
-  def add_song_by_name(song)
-    self.song
-  end
+  # def add_song_by_name(song)
+  #   self.song
+  # end
   
   def self.song_count
     l = Song.all.length

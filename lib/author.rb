@@ -15,6 +15,11 @@ class Author
     p + 1
   end
   
+    def add_post(song)
+    song.artist = self
+    
+  end
+  
 end
 
 # binding.pry

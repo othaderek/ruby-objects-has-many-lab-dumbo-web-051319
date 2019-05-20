@@ -15,7 +15,7 @@ class Author
     p + 1
   end
   
-    def add_post(song)
+  def add_post(song)
     post.author = self
     
   end

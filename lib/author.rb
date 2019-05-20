@@ -16,7 +16,7 @@ class Author
   end
   
     def add_post(song)
-    song.artist = self
+    post.artist = self
     
   end
   
